@@ -3,6 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 body {
 	text-align: center;
@@ -14,22 +15,9 @@ body {
 	line-height: 1.3em;
 }
 
-.wrapper {
-	width: 100% auto;
-
-}
-
 header {
 	background-color: #FFED74;
-	padding: 1em;
-	padding-bottom: 0em;
-}
-
-#logo {
-	float: right;
-	padding: 3em;
-	padding-left: 100%;
-	padding-bottom: 3em;
+	padding: 1em 1em 0em 1em;
 }
 
 h1, h2 {
@@ -37,19 +25,31 @@ h1, h2 {
 	letter-spacing: 1px;
 	line-height: .9em;
 	color: #00c5f1;
-	margin-left: 1em;
-	margin-right: 1em;
-	margin-bottom: .5em;
+	margin: 0 1em .5em 1em;
 } 
 
 nav {
 	background-color: #E8C66A;
 	outline: 1px #00c5f1 solid;
 	outline-offset: -10px;
-	padding: 2em;
-	width: 40em;
+	padding: 3em 0;
+	width: 30em;
 	height: 10em;
 	margin:	2em auto;
+}
+
+nav a {
+	display: block;
+	width: 10em;
+	float: left;
+	margin: 1em;
+	border: 1px #00c5f1 solid;
+	height: 2em;
+	padding: 5px 20px; 
+}
+
+nav a:hover {
+	background-color: #00c5f1;
 }
 
 section {
@@ -63,35 +63,8 @@ article {
 
 aside {
 	background-color: #FFC675;
-
-}
-
-.intro {
-
-}
-
-.single {
-
-}
-
-.double {
-
-}
-
-#about {
-
-}
-
-#work {
-
-}
-
-#jimp {
-
-}
-
-#contact {
-
+	float: right;
+	width: 30%;
 }
 
 footer {
@@ -103,9 +76,10 @@ span {
 }
 
 p, li {
-	margin-left: 1em;
+	margin-left: 0 1em;
 	margin-right: 1em;
 	color: #ffffff;
+	text-align: left;
 }
 
 ul {
@@ -118,15 +92,69 @@ li {
 	font-size: 1.3em;
 }
 
-.homenav {
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 100% auto;
+	margin: 0 auto;
+}
+
+.clearfix:after	{
+	display: block;
+	content: " ";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+} 
+
+.intro {
+	float: left;
+	width: 70%;
+	padding: 0 5em;
+
+}
+
+.single {
+
+}
+
+.double {
+
+}
+
+#logo {
+	float: right;
+	padding: 3em;
+	padding-left: 100%;
+}
+
+#about {
+
+}
+
+#work {
+	clear: both;
+
+}
+
+#jimp {
+
+}
+
+#contact {
+
+}
+
+/*.homenav {
 	border: 1px #00c5f1 solid;
 	width: 10em;
 	height: 5em;
 	margin: 2em 2em;
 }
-
-a {
-	color: #ffffff;
-	text-decoration: none;
-}
+*/
 
