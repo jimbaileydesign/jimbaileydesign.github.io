@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:800,400,200);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	background: url("../images/magazines-desk-work-workspace2sml.jpg") no-repeat;
+	background-color: #585856;
+	background-size: 100% auto;
+	font-size: 16px;
+	font-family: 'Work Sans', arial, sans-serif;
+	line-height: 1.3em;
+}
+
+header {
+	background-color: #FFED74;
+	padding: 1em 1em 0em 1em;
+}
+
+h1, h2 {
+	font-size: 3em;
+	letter-spacing: 1px;
+	line-height: .9em;
+	color: #00c5f1;
+	margin: 0 1em .5em 1em;
+} 
+
+nav {
+	background-color: #E8C66A;
+	outline: 1px #00c5f1 solid;
+	outline-offset: -10px;
+	padding: 3em 0;
+	width: 30em;
+	height: 10em;
+	margin:	2em auto;
+}
+
+nav a {
+	display: block;
+	width: 10em;
+	float: left;
+	margin: 1em;
+	border: 1px #00c5f1 solid;
+	height: 2em;
+	padding: 5px 20px; 
+}
+
+nav a:hover {
+	background-color: #00c5f1;
+}
+
+section {
+	background-color: #FFE2B8;
+	padding-top: 20em;
+}
+
+article {
+	background-color: #E89C6C;
+	float: left;
+	display: block;
+	width: 31.33%;
+	margin: 1%;
+}
+
+aside {
+	background-color: #FFC675;
+	float: right;
+	width: 31.33%;
+	margin: 1%;
+}
+
+article img {
+	width: 100%;
+}
+
+footer {
+	background-color: #FF957E;
+	padding: 20em 0em 2em 0em;
+}
+
+span {
+	font-weight: 200;
+}
+
+p, li {
+	margin: 1em 1em;
+	color: #ffffff;
+	text-align: left;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	font-size: 1.3em;
+	line-height: .5em;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.clearfix:after	{
+	display: block;
+	content: " ";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+} 
+
+.intro {
+	float: left;
+	width: 64.66%;
+	padding: 0 4em;
+}
+
+.single {
+
+}
+
+.double {
+}
+
+#logo {
+	float: right;
+	padding: 3em;
+	padding-left: 100%;
+}
+
+#about {
+
+}
+
+#work {
+	clear: both;
+
+}
+
+#jimp {
+
+}
+
+#contact {
+
+}
+
+/*.homenav {
+	border: 1px #00c5f1 solid;
+	width: 10em;
+	height: 5em;
+	margin: 2em 2em;
+}
+*/
+
