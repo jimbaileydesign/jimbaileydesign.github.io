@@ -29,12 +29,12 @@ h1, h2 {
 } 
 
 nav {
-	background-color: #E8C66A;
+/*	background-color: #E8C66A;
+*/	background-color: rgba(0, 0, 0, .4);
 	outline: 1px #00c5f1 solid;
 	outline-offset: -10px;
-	padding: 3em 0;
-	width: 30em;
-	height: 10em;
+	padding: 1.5em 1em;
+	width: 26em;
 	margin:	2em auto;
 }
 
