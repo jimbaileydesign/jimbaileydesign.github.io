@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:800,400,200);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	background: url("../images/magazines-desk-work-workspace2sml.jpg") no-repeat;
+	background-color: #585856;
+	background-size: 100% auto;
+	font-size: 16px;
+	font-family: 'Work Sans', arial, sans-serif;
+	line-height: 1.3em;
+}
+
+header {
+	padding: 1em 1em 0em 1em;
+}
+
+h1, h2 {
+	font-weight: 800;
+	font-size: 3em;
+	letter-spacing: 1px;
+	line-height: .9em;
+	color: #00c5f1;
+	margin: 0 1em .5em 1em;
+} 
+
+nav {
+	background-color: rgba(0, 0, 0, .4);
+	outline: 1px #00c5f1 solid;
+	outline-offset: -10px;
+	padding: 1.5em 1em;
+	width: 26em;
+	margin:	2em auto;
+}
+
+nav a {
+	display: block;
+	width: 10em;
+	float: left;
+	margin: 1em;
+	border: 1px #00c5f1 solid;
+	height: 2em;
+	padding: 5px 20px; 
+}
+
+nav a:hover {
+	background-color: #00c5f1;
+}
+
+section {
+	margin-top: 10em;
+	padding: 3em 0;
+	width: 100%;
+}
+
+article {
+	float: left;
+	display: block;
+	width: 31.33%;
+	margin: 1%;
+}
+
+aside {
+	float: right;
+	width: 31.33%;
+	margin: 1%;
+}
+
+article img {
+	width: 100%;
+}
+
+footer {
+	margin-top: 10em;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a:hover {
+	color: #00c5f1;
+}
+
+span {
+	font-weight: 200;
+}
+
+p, li {
+	margin: 1em 1em;
+	color: #ffffff;
+	text-align: left;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	font-size: 1.3em;
+	line-height: .5em;
+}
+
+a {
+	color: #ffffff;
+	margin: 0 .5em;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.clearfix:after	{
+	display: block;
+	content: " ";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+} 
+
+.intro {
+	float: left;
+	width: 64.66%;
+	padding: 0 4em;
+}
+
+.double {
+	width: 64.34%
+}
+
+#logo {
+	float: right;
+	padding: 3em;
+	padding-left: 100%;
+}
+
+#about {
+	background-color: #222222;
+	margin-top: 20em;
+}
+
+#work {
+	clear: both;
+}
+
+#jimp {
+	background-color: #00c5f1;
+}
+
+#jimp h2 {	
+	color: #ffffff;
+}
+
+#contact {
+	background-color: #222222;
+	padding: 3em 5.5em 5em 5.5em;
+}
+
+#contact a {
+	display: block;
+	width: 20em;
+	float: left;
+	margin: 1em;
+	border: 1px #00c5f1 solid;
+	height: 2em;
+	padding: 5px 20px; 
+}
+
+#contact a:hover {
+	background-color: #00c5f1;
+}
