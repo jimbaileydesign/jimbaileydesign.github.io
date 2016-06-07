@@ -75,7 +75,7 @@ article img {
 }
 
 footer {
-	margin-top: 10em;
+	margin-top: 12em;
 }
 
 footer p {
@@ -102,7 +102,7 @@ ul {
 
 li {
 	font-size: 1.3em;
-	line-height: .5em;
+	line-height: 1em;
 }
 
 a {
@@ -161,19 +161,29 @@ a {
 
 #contact {
 	background-color: #222222;
-	padding: 3em 5.5em 5em 5.5em;
+	padding: 3em 4em;
+}
+
+#contact p {
+	margin: 2em 8em 1em 8em;
+	text-align: center;
 }
 
 #contact a {
-	display: block;
-	width: 20em;
-	float: left;
-	margin: 1em;
+	width: 18em;
 	border: 1px #00c5f1 solid;
 	height: 2em;
-	padding: 5px 20px; 
+	margin: 1.5em auto;
+	padding: 9px 20px;
+	text-align: center;
+	display: block;
+	font-size: 1.3em;
 }
 
 #contact a:hover {
 	background-color: #00c5f1;
+}
+
+@media only screen and (max-width: ) {
+
 }
