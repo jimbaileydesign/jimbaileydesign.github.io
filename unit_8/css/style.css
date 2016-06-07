@@ -255,18 +255,20 @@ a {
 	li {
 		font-size: 1.1em;
 	}
-
-	#contact {
-		padding: 3em 2em;
-	}
 	.intro {
 		padding: 0 1em;
+	}
+	#contact {
+		padding: 3em 2em;
 	}
 }
 
 @media only screen and (max-width: 400px) {
 	body {
 		background-size: 250%;
+	}
+	.wrapper {
+		width: 90%;
 	}
 	#contact a {
 		width: 90%
